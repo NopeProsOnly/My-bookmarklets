@@ -895,4 +895,6 @@ void (function () {
 
 32.) javascript:(function() {    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');    link.type = 'image/x-icon';    link.rel = 'shortcut icon';    link.href = 'https://'+window.prompt('Where is the favicon?','')+'/favicon.ico';    document.getElementsByTagName('head')[0].appendChild(link);})();
 
-33.) 
+33.) javascript:setTimeout(function() {  var text = new SpeechSynthesisUtterance(window.prompt("What should I say?",""));   speechSynthesis.speak(text);});
+
+34.)
